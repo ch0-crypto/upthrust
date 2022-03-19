@@ -116,12 +116,14 @@ header {
 
 .presentation h2 {
   text-align: center;
-  margin-top: 5rem;
+}
+.presentation {
+  margin-top: 8rem;
 }
 
 .timeline-area {
   margin: 5rem;
-  margin-left: 50rem;
+  margin-left: 12srem;
   width: 400px;
   border-left: 2px solid #ccc;
   padding: 0 20px 0 30px;
@@ -152,4 +154,75 @@ div:before {
 
 .timeline-picture img {
   width: 500px;
+}
+
+.timeline-picture {
+  margin-left: 5rem;
+}
+
+.presentation-aside {
+  display: flex;
+}
+
+.main-programs h2 {
+  text-align: center;
+}
+
+.main-programs p {
+  text-align: center;
+}
+
+.programs-section {
+  background: #f0f6fe;
+  padding: 3rem;
+}
+
+.main-program-image img {
+  width: 600px;
+  margin-top: 2rem;
+
+  /* margin-left: 18rem; */
+}
+
+.main-program-image {
+  text-align: center;
+}
+
+.sub-programs h2 {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.sub-programs p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.flex-1 {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-1 p {
+  font-size: 14px;
+}
+.flex-2 p {
+  font-size: 14px;
+}
+.flex-2 {
+  margin: 2rem;
+  margin-left: 8.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sub-flex2 {
+  margin-left: -2rem;
+}
+article {
+  text-align: center;
+  margin: 4rem;
+}
+article p {
+  font-size: 14px;
 }
