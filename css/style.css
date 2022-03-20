@@ -226,3 +226,144 @@ article {
 article p {
   font-size: 14px;
 }
+
+.article-image img {
+  width: 110px;
+  padding: 1rem;
+}
+.our-candidates {
+  background: #f0f6fe;
+  padding: 1rem 0rem;
+}
+.our-candidates h2 {
+  text-align: center;
+  margin: 4rem;
+}
+
+.main-candidates {
+  display: flex;
+  text-align: center;
+
+  padding: 0rem 12rem;
+}
+
+.main-candidates p {
+  font-size: 14px;
+}
+.candidate-1 {
+  background: #fff;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 10px 0px 40px 3px rgba(175, 164, 164, 0.3);
+}
+.candidate-2 {
+  background: #fff;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 10px 0px 40px 3px rgba(175, 164, 164, 0.3);
+}
+.candidate-3 {
+  background: #fff;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 10px 0px 40px 3px rgba(175, 164, 164, 0.3);
+}
+
+.candidates-link {
+  text-align: center;
+  margin: 3rem;
+}
+
+.candidates-link a {
+  background: #007bff;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.candidates-link a:hover {
+  opacity: 0.9;
+  transition: all 0.2s ease-in-out;
+}
+
+.our-candidates-workfor {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.our-candidates-workfor-images img {
+  padding: 1rem;
+}
+
+/* who flex */
+
+.who {
+  padding: 3rem;
+}
+.who h2 {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.who-flex-1 {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.who-flex-1 p {
+  font-size: 14px;
+}
+.who-flex-2 p {
+  font-size: 14px;
+}
+.who-flex-2 {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.who-sub-flex4 {
+  margin-right: 2rem;
+}
+
+.who-link {
+  text-align: center;
+  margin: 1.3rem;
+}
+.who-link a {
+  padding: 0.6rem 1rem;
+  background: #007bff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.who-link a:hover {
+  opacity: 0.9;
+  transition: all 0.2s ease-in-out;
+}
+
+/* footer section */
+
+footer {
+  background: #0a5eb8;
+  margin-top: 4rem;
+}
+
+.main-footer {
+  padding: 5rem;
+}
+
+.first-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-footer a {
+  color: #fff;
+}
+
+.second-footer {
+  border-bottom: solid 1px #fff;
+}
