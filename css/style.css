@@ -362,8 +362,27 @@ footer {
 
 .first-footer a {
   color: #fff;
+  font-weight: 700;
 }
 
 .second-footer {
   border-bottom: solid 1px #fff;
+}
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7rem;
+}
+.socials i {
+  color: #ffffffb2;
+  padding: 0.7rem;
+}
+
+.third-footer {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.third-footer p {
+  color: #ffffffb2;
 }
