@@ -123,9 +123,9 @@ header * {
 /* showcase area */
 .header-showcase {
   margin-top: 8rem;
-  margin-left: 47rem;
+  margin-left: 4rem;
   padding: 2.5rem;
-  text-align: right;
+  text-align: left;
 }
 .header-showcase h1 {
   font-family: "Segoe UI", sans-serif;
@@ -168,7 +168,7 @@ header * {
   text-align: center;
 }
 .presentation {
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 
 .timeline-area {
@@ -293,7 +293,7 @@ header * {
   color: #fff;
 }
 .business-analysis {
-  margin-top: 15rem;
+  margin-top: 13rem;
   margin-left: 28rem;
   position: absolute;
   background: rgba(255, 255, 255, 0.6);
@@ -311,7 +311,7 @@ header * {
 }
 
 .ui-ux {
-  margin-top: 15rem;
+  margin-top: 13rem;
   position: absolute;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 5px;
@@ -393,21 +393,40 @@ article p {
   margin: 1rem;
   padding: 2rem;
   border-radius: 4px;
+  transition: 1s;
   box-shadow: 10px 0px 40px 3px rgba(175, 164, 164, 0.3);
 }
+.candidate-1:hover {
+  transform: scale(1.3);
+  background: #f0f6fe;
+  z-index: 2;
+}
+
 .candidate-2 {
   background: #fff;
   margin: 1rem;
   padding: 2rem;
   border-radius: 4px;
+  transition: 1s;
   box-shadow: 10px 0px 40px 3px rgba(175, 164, 164, 0.3);
+}
+.candidate-2:hover {
+  transform: scale(1.3);
+  background: #f0f6fe;
+  z-index: 2;
 }
 .candidate-3 {
   background: #fff;
   margin: 1rem;
   padding: 2rem;
   border-radius: 4px;
+  transition: 1s;
   box-shadow: 10px 0px 40px 3px rgba(175, 164, 164, 0.3);
+}
+.candidate-3:hover {
+  transform: scale(1.3);
+  background: #f0f6fe;
+  z-index: 2;
 }
 
 .candidates-link {
