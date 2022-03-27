@@ -546,11 +546,11 @@ footer {
 
 /* media queries */
 
-@media (max-width: 560px) {
+@media (max-width: 558px) {
   .navbar {
     position: fixed;
     top: 0;
-    left: 100%;
+    left: 110%;
     width: 100%;
     height: 100vh;
     display: block;
@@ -639,7 +639,7 @@ footer {
 
 /* hamburger button */
 
-@media (min-width: 550px) {
+@media (min-width: 558px) {
   .menu-btn {
     display: none;
   }
@@ -718,6 +718,20 @@ footer {
     margin-left: 1.2rem;
   }
 }
+/* queries for 868px */
+@media (max-width: 960px) {
+  .timeline-area {
+    margin-left: -1rem;
+  }
+  .timeline-picture img {
+    width: 500px;
+    margin-left: -4rem;
+  }
+  .main-candidates {
+    padding: 4rem;
+  }
+}
+
 /* queries for 850px */
 @media (max-width: 850px) {
   .main-header {
@@ -857,5 +871,87 @@ footer {
   }
   .who-sub-flex4 {
     padding-top: 2rem;
+  }
+}
+
+@media (max-width: 677px) {
+  .main-header img {
+    width: 130px;
+  }
+  .navbar {
+    margin-left: -4rem;
+  }
+
+  .navbar a {
+    margin: 0 -3.2rem;
+  }
+  .navbar ul {
+    margin-right: -3rem;
+    margin-top: 1.3rem;
+  }
+  .navbar li {
+    padding-left: 2rem;
+  }
+  .timeline-area {
+    margin: 4rem;
+    margin-left: 10rem;
+  }
+
+  .header-showcase {
+    margin: -0.7rem;
+  }
+  .main-program-image img {
+    width: 400px;
+  }
+  .frontend {
+    margin: 8rem;
+    margin-left: 8rem;
+    margin-top: -0rem;
+  }
+  .ui-ux {
+    margin: 5rem;
+    margin-left: -1rem;
+  }
+
+  .business-analysis {
+    margin: 10rem;
+    margin-right: -3rem;
+    margin-top: 5rem;
+  }
+  .quality-assurance {
+    margin-top: 8rem;
+    margin-left: 13rem;
+  }
+  .product-mgt {
+    margin-top: 8rem;
+    margin-left: -3rem;
+  }
+}
+@media (max-width: 586px) {
+  .main-header img {
+    margin-right: -10rem;
+  }
+  .navbar {
+    font-size: 1rem;
+  }
+  .navbar ul {
+    margin-top: 3rem;
+    margin-right: 2rem;
+  }
+  .navar a {
+    padding: 2rem;
+  }
+
+  .lastchild {
+    margin-right: -3rem;
+  }
+  .flex-1 {
+    margin-left: -1.7rem;
+  }
+  .flex-2 {
+    margin: 4rem;
+  }
+  .timeline-picture img {
+    width: 380px;
   }
 }
