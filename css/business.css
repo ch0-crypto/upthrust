@@ -32,7 +32,7 @@ body {
 .navbar .packages {
   position: absolute;
   display: none;
-  background: rgba(0, 0, 0, 0.2);
+  background: #fff;
 
   margin: -2rem;
   border-radius: 4px;
@@ -43,8 +43,8 @@ body {
 }
 
 .navbar .packages a:hover {
+  background: rgba(0, 0, 0, 0.2);
   color: #fff;
-  background: rgba(0, 0, 0, 0.3);
   width: 100%;
 }
 
@@ -123,9 +123,33 @@ header * {
   padding-top: 8rem;
   color: #fff;
 }
-.business-section p {
+.paragraph {
   text-align: center;
   font-weight: 500;
+  color: #fff;
+}
+
+#business-boxes {
+  display: flex;
+  margin-left: 16rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.box-3 {
+  background: rgba(0, 0, 0.1, 0.3);
+  padding: 2rem;
+  color: #fff;
+}
+
+.box-2 {
+  background: rgba(0, 0, 0.1, 0.3);
+  padding: 2rem;
+  color: #fff;
+}
+.box-1 {
+  background: rgba(0, 0, 0.1, 0.3);
+  padding: 2rem;
   color: #fff;
 }
 
