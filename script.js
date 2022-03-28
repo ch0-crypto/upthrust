@@ -1,14 +1,35 @@
-const navBar = document.querySelector(".navbar");
+// const navBar = document.querySelector(".navbar");
 
-const menuBtn = document.querySelector(".menu-btn");
-let menuOpen = false;
-menuBtn.addEventListener("click", () => {
-  if (!menuOpen) {
-    menuBtn.classList.add("open");
-    navBar.classList.add("open");
-    menuOpen = true;
+// const menuBtn = document.querySelector(".menu-btn");
+// let menuOpen = false;
+// menuBtn.addEventListener("click", () => {
+//   if (!menuOpen) {
+//     menuBtn.classList.add("open");
+//     navBar.classList.add("navbar");
+
+//     menuOpen = true;
+//   } else {
+//     menuBtn.classList.remove("open");
+//     menuOpen = false;
+//   }
+// });
+
+const menu = document.querySelector(".navbar");
+const menuItems = document.querySelectorAll(".menuItem");
+const hamburger = document.querySelector(".hamburger");
+const closeIcon = document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
+
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
   } else {
-    menuBtn.classList.remove("open");
-    menuOpen = false;
+    menu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
   }
-});
+}
+
+hamburger.addEventListener("click", toggleMenu);
