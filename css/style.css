@@ -1142,6 +1142,9 @@ footer {
   .first-footer a {
     padding: 0.1rem;
   }
+  .container {
+    width: min-content;
+  }
 }
 
 @media (max-width: 553px) {
