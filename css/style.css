@@ -59,10 +59,6 @@ body {
   margin: auto;
 }
 
-.container {
-  width: min-content;
-}
-
 .container ul {
   display: flex;
 }
@@ -1153,7 +1149,7 @@ footer {
     padding: -8rem;
   }
 
-  .container {
+  .timeline-area {
     width: min-content;
   }
 }
