@@ -1067,13 +1067,16 @@ footer {
 }
 /* iphone xr */
 
-@media (max-width: 416px) {
+@media (max-width: 421px) {
   .timeline-picture img {
     width: 250px;
   }
   .timeline-area {
     margin: 5rem;
     margin-right: 3.3rem;
+  }
+  .container {
+    width: min-content;
   }
   .main-programs img {
     width: 250px;
@@ -1154,5 +1157,12 @@ footer {
 
   .timeline-area {
     width: min-content;
+  }
+  .navbar .packages {
+    margin-left: 6rem;
+    padding: 2rem;
+  }
+  .packages li {
+    color: #000;
   }
 }
