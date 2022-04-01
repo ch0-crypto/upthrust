@@ -66,3 +66,22 @@ function moveRight() {
 btnLeft.addEventListener("click", moveLeft);
 btnRight.addEventListener("click", moveRight);
 window.addEventListener("resize", moveSlider);
+
+// business week
+
+function myFunction() {
+  let firstWeekBtn = document.getElementById("first-week");
+  if (firstWeekBtn.style.display === "none") {
+    firstWeekBtn.style.display = "block";
+  } else {
+    firstWeekBtn.style.display = "none";
+  }
+}
+function secondFunction() {
+  let secondWeekBtn = document.getElementById("second-week");
+  if (secondWeekBtn.style.display === "none") {
+    secondWeekBtn.style.display = "block";
+  } else {
+    secondWeekBtn.style.display = "none";
+  }
+}
