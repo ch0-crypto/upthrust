@@ -697,24 +697,19 @@ footer {
     padding-top: 1rem;
     padding-right: rem;
   }
-  .navbar {
-    margin-left: 2rem;
+  .main-header {
+    margin: 0 -3.9rem;
   }
-
-  .navbar li {
-    padding: 0.6rem;
-  }
-
   .navbar a {
-    padding: 0rem 2rem;
-    text-align: center;
+    margin: 1.3rem -1.8rem;
+    padding: 2rem;
   }
-  .navbar .lastchild {
-    padding: 1rem 0rem;
+  .navbar li {
+    padding-left: 2rem;
   }
 
-  .navbar .lastchild a {
-    margin-bottom: 1rem;
+  .navbar .lastchild {
+    margin-left: 1.7rem;
   }
 
   .main-showcase {

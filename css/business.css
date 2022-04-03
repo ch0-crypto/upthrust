@@ -121,7 +121,7 @@ header * {
 .business-section h2 {
   text-align: center;
   padding-top: 8rem;
-  color: #000;
+  color: #fff;
 }
 .paragraph {
   text-align: center;
@@ -131,11 +131,14 @@ header * {
 
 #business-boxes {
   display: flex;
-  margin-left: 16rem;
-  margin-top: 3rem;
+  justify-content: space-evenly;
+  /* margin-left: -1rem; */
+  margin: 2.4rem 9rem;
+  padding: 2rem;
   text-align: center;
+  background: #fff;
 }
-
+/* 
 .box-3 {
   background: #fff;
   padding: 2rem;
@@ -151,7 +154,7 @@ header * {
   background: #fff;
   padding: 2rem;
   color: #000;
-}
+} */
 
 .aside-links {
   text-align: center;
@@ -510,5 +513,177 @@ footer {
 @media (min-width: 558px) {
   .hamburger {
     display: none;
+  }
+}
+
+@media (max-width: 1070px) {
+  .main-header {
+    margin: 0 -3.9rem;
+  }
+  .navbar a {
+    margin: 1.3rem -1.8rem;
+    padding: 2rem;
+  }
+  .navbar li {
+    padding-left: 2rem;
+  }
+
+  .navbar .lastchild {
+    margin-left: 1.7rem;
+  }
+
+  .first-week {
+    margin: -2rem;
+  }
+  .second-week {
+    margin: -2rem;
+  }
+
+  .article-1 i {
+    width: 5px;
+    height: 5px;
+    justify-self: center;
+  }
+}
+@media (max-width: 938px) {
+  .main-header {
+    margin: 0 -3.9rem;
+  }
+  .navbar a {
+    margin: 1.3rem -1.8rem;
+    padding: 2rem;
+  }
+  .navbar li {
+    padding-left: 1.5rem;
+  }
+
+  .navbar .lastchild {
+    margin-left: 1.7rem;
+  }
+
+  .first-week {
+    margin: 3rem 1rem;
+    padding: 2rem;
+    width: 100%;
+  }
+  .first-week img {
+    height: 350px;
+  }
+  .second-week img {
+    height: 350px;
+  }
+  .second-week {
+    margin: 3rem 1rem;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .article-1 i {
+    width: 5px;
+    height: 5px;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 888px) {
+  .navbar a {
+    margin: 1.3rem -1.8rem;
+    padding: 0.8rem;
+  }
+  .navbar li {
+    padding-left: 0.9rem;
+  }
+
+  .navbar .lastchild {
+    margin-left: 1.7rem;
+  }
+}
+@media (max-width: 828px) {
+  .navbar a {
+    margin: 1.3rem -2.2rem;
+    padding: 3rem;
+  }
+  .navbar li {
+    padding-left: 1.1rem;
+    margin-left: -0.4rem;
+  }
+  .navbar .lastchild {
+    margin-left: 4rem;
+  }
+  .business-boxes {
+    padding: 6rem;
+  }
+  .box-3 {
+    padding: 1rem;
+  }
+  .box-2 {
+    padding: 1rem;
+  }
+  .box-1 {
+    padding: 1rem;
+  }
+}
+@media (max-width: 799px) {
+  .navbar a {
+    margin: 1.3rem -2.2rem;
+    padding: 3rem;
+  }
+  .navbar li {
+    padding-left: 1.7rem;
+    margin-left: -0.6rem;
+  }
+  .navbar .lastchild {
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 836px) {
+  .main-header {
+    margin: 0 -3.9rem;
+  }
+  .navbar a {
+    margin: 1.3rem -1.8rem;
+    padding: 0.8rem;
+  }
+  .navbar li {
+    padding-left: 0.9rem;
+  }
+
+  .navbar .lastchild {
+    margin-left: 1.7rem;
+  }
+
+  .learning p {
+    padding: 4rem;
+  }
+
+  .first-week {
+    margin: 3rem 1rem;
+    padding: 2rem;
+    width: 100%;
+  }
+  .first-week img {
+    height: 350px;
+  }
+  .second-week img {
+    height: 350px;
+  }
+
+  .second-week {
+    margin: 3rem 1rem;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .article-1 i {
+    width: 5px;
+    height: 5px;
+    justify-self: center;
+  }
+  .learning-boxes {
+    padding: 0.5rem;
+  }
+  .intsructors {
+    margin: 0.6rem;
+    padding: 0.6rem;
   }
 }
