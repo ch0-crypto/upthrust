@@ -61,7 +61,7 @@ form input {
 form label {
   display: block;
   padding: 0.7rem;
-  width: 35%;
+  width: 10%;
   font-size: 0.7rem;
 }
 
@@ -70,4 +70,14 @@ form select {
   padding: 0.6rem;
   background: #dededf;
   border: none;
+}
+
+.tnc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.tnc input {
 }
