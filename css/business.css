@@ -121,12 +121,12 @@ header * {
 .business-section h2 {
   text-align: center;
   padding-top: 8rem;
-  color: #fff;
+  color: #000;
 }
 .paragraph {
   text-align: center;
   font-weight: 1000;
-  color: #fff;
+  color: #000;
 }
 
 #business-boxes {
@@ -785,6 +785,12 @@ footer {
   .paragraph {
     font-size: 13px;
   }
+  .packages a {
+    margin-left: 6rem;
+  }
+  .packages {
+    background: none;
+  }
   .first-week-1 {
     display: block;
     margin: -2rem;
@@ -798,12 +804,10 @@ footer {
     display: block;
     margin: -2rem;
   }
-  .navbar {
-    left: 0.1%;
+  .navbar li {
+    margin-left: 1rem;
   }
-  .navbar ul {
-    margin-left: 2rem;
-  }
+
   #brochure {
     display: block;
     margin: 4rem;
