@@ -107,3 +107,75 @@ form button {
   background: #007bff;
   color: #fff;
 }
+
+@media (max-width: 1025px) {
+  form button {
+    padding: 0.8rem 8rem;
+  }
+
+  #register-container {
+    padding: 0.6rem;
+  }
+  form p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1116px) {
+  form button {
+    padding: 0.8rem 8rem;
+  }
+
+  #register-container {
+    padding: 0.6rem;
+  }
+  form p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 995px) {
+  form button {
+    padding: 0.8rem 8rem;
+  }
+
+  #register-container {
+    padding: 0.6rem;
+  }
+  form p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 574px) {
+  form button {
+    padding: 0.6rem 0.6rem;
+  }
+
+  #register-container {
+    padding: 0.8rem;
+  }
+  form p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 540px) {
+  form button {
+    padding: 0.6rem 0.6rem;
+  }
+
+  .form-container {
+    margin: 1.1rem;
+  }
+  form p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 281px) {
+  .form-container h4 {
+    font-size: 0.6rem;
+  }
+  .form-container {
+    margin: 1.1rem;
+  }
+  form p {
+    font-size: 0.9rem;
+  }
+}

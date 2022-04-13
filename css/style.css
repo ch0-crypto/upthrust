@@ -359,18 +359,7 @@ header * {
 .sub-flex2 {
   margin-left: -2rem;
 }
-article {
-  text-align: center;
-  margin: 4rem;
-}
-article p {
-  font-size: 14px;
-}
 
-.article-image img {
-  width: 110px;
-  padding: 1rem;
-}
 .our-candidates {
   background: #f0f6fe;
   padding: 1rem 0rem;
@@ -479,12 +468,12 @@ article p {
   font-size: 14px;
 }
 .who-flex-2 {
-  margin: 3rem;
+  margin: 6.3rem;
   display: flex;
   justify-content: space-evenly;
 }
 .who-sub-flex4 {
-  margin-right: 2rem;
+  margin-right: 0.2rem;
 }
 
 .who-link {
@@ -1015,6 +1004,9 @@ footer {
   .main-programs img {
     width: 250px;
   }
+  .main-programs p {
+    font-size: 14px;
+  }
 
   .main-program-image a {
     display: inline;
@@ -1033,24 +1025,32 @@ footer {
     margin-left: 3.2rem;
     margin: 2.6rem;
   }
+
+  .sub-programs h2 {
+    font-size: 1rem;
+  }
   .flex-1 {
     display: block;
-    padding: 0rem 2rem;
+    padding: 0 8.3rem;
   }
-
-  .sub-flex3 {
-    margin-left: -6rem;
-    padding: 0 2rem;
+  .who {
+    margin-right: 6rem;
   }
-  .sub-flex4 {
-    margin-left: -6rem;
-    padding: 2rem;
+  .flex-2 {
+    display: block;
+    margin-left: 6rem;
+  }
+  .sub-flex1 h4 {
+    margin-top: 2rem;
   }
   .who-flex-1 {
-    padding: 1rem;
+    margin-left: 4.9rem;
   }
   .who-flex-2 {
-    padding: 1rem;
+    margin: 0rem;
+  }
+  .who-link {
+    margin: 2rem;
   }
 
   .first-footer {
@@ -1098,7 +1098,11 @@ footer {
   }
   .flex-1 {
     display: block;
-    padding: 0rem 2rem;
+    margin: 0rem 0.1rem;
+  }
+  .flex-2 {
+    display: block;
+    margin-left: 12rem;
   }
 
   .sub-flex3 {
@@ -1110,10 +1114,10 @@ footer {
     padding: 2rem;
   }
   .who-flex-1 {
-    padding: 1rem;
+    margin: 0.5rem;
   }
   .who-flex-2 {
-    padding: 1rem;
+    margin: 0.1rem;
   }
 }
 
@@ -1162,4 +1166,53 @@ footer {
   .packages li {
     color: #000;
   }
+}
+
+@media (max-width: 361px) {
+  .flex-1 {
+    display: block;
+    margin: 0rem 0.3rem;
+  }
+  .flex-2 {
+    display: block;
+    margin-left: 6rem;
+  }
+  .who-flex-1 {
+    margin-left: 4.9rem;
+  }
+  .who-flex-2 {
+    margin: 0rem;
+  }
+  .who-link {
+    margin: 2rem;
+  }
+}
+@media (max-width: 281px) {
+  .flex-1 {
+    display: block;
+    margin: 0rem 0.1rem;
+  }
+  .flex-2 {
+    display: block;
+    margin-left: 12rem;
+  }
+  /* 
+  .sub-flex3 {
+    margin-left: -6rem;
+    padding: 0 2rem;
+  }
+  .sub-flex4 {
+    margin-left: -6rem;
+    padding: 2rem;
+  } */
+  .who-flex-1 {
+    margin: 2rem;
+  }
+  .who-flex-2 {
+    margin: 0.1rem;
+  }
+  /* .who-link {
+    padding: 3rem;
+    display: inline;
+  } */
 }

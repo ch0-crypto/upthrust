@@ -89,3 +89,46 @@ form button {
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 1110px) {
+  form button {
+    padding: 0.8rem 8rem;
+  }
+
+  #sign-container {
+    padding: 0.1rem;
+  }
+  form p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 570px) {
+  form button {
+    padding: 0.6rem 0.6rem;
+  }
+
+  .sign-form-container {
+    margin: 1.1rem;
+  }
+  form p {
+    font-size: 0.7rem;
+  }
+  form a {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 322px) {
+  form button {
+    padding: 0.6rem 0.6rem;
+  }
+
+  .sign-form-container {
+    margin: 1.1rem;
+  }
+  form p {
+    font-size: 0.7rem;
+  }
+  form a {
+    font-size: 0.7rem;
+  }
+}
